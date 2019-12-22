@@ -1,0 +1,28 @@
+html,body,header, #intro{
+    height: 100%;
+}
+#intro {
+    background: url("../img/city-dawn-sunset-skyline-3337210.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.top-nav-collapse {
+    background-color: #7d5094;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #7d5094;
+    }
+}
